@@ -3,10 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style.css" />
   </head>
   <body>
-    <script src="main.js"></script>
+    <div class="wrapper">
+      <!-- calculator container -->
+      <div class="container design">
+        <!-- user-input container -->
+        <div class="input-container">
+          <p name="user-input" id="user-input"></p>
+        </div>
+
+        <!-- button container -->
+        <div class="cal-buttons">
+          <button type="button" id="pushable" class="key-func operations">
+            <span class="front">C</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-func operations">
+            <span class="front">Del</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-op operations">
+            <span class="front">%</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-op operations">
+            <span class="front">/</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num">
+            <span class="front">7</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num">
+            <span class="front">8</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num">
+            <span class="front">9</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-op operations">
+            <span class="front">*</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num">
+            <span class="front">4</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num">
+            <span class="front">5</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num">
+            <span class="front">6</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-op operations">
+            <span class="front">-</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num">
+            <span class="front">1</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num">
+            <span class="front">2</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num">
+            <span class="front">3</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-op operations">
+            <span class="front">+</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-num zero">
+            <span class="front">0</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-op operations">
+            <span class="front">.</span>
+          </button>
+
+          <button type="button" id="pushable" class="key-op operations">
+            <span class="front">=</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./static/main.js"></script>
   </body>
 </html>
